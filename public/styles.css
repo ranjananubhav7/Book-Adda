@@ -1,0 +1,39 @@
+.formInput{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  width: 75%;
+}
+.formButton {
+  margin-left:50%;
+}
+.formText{
+  font-style: oblique;
+  margin-left: 40%;
+  margin-top: 50px;
+}
+.books{
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+  width: 18rem;
+}
+.forM{
+  align-items: center;
+}
+.cardsss:hover {
+  box-shadow: 0 0 21px rgba(33,33,33,.2);
+}
+.cardImg{
+  height: 400px;
+  width: 200px;
+}
+.listitems{
+  width: 200px;
+  display: inline-block;
+}
+.showMore{
+  margin-left: 50%;
+  color: blue;
+}
