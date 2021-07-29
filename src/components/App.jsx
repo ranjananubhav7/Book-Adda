@@ -24,7 +24,7 @@ function App(){
   <h1 className="formText">Search for books!</h1>
   <form onSubmit={handleSubmit}>
     <input type="text" onChange={handleChange} className="form-control formInput" placeholder="type here" autoComplete="off" />
-    <button type="submit" className="btn btn-primary formButton">submit</button>
+    <button type="submit" className="btn btn-outline-warning formButton">search</button>
   </form>
 <ul>
   {results.map(book => (
