@@ -1,3 +1,9 @@
+# About the Application
+
+It is a React Application to search for books using keywords, genre or author name. 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
