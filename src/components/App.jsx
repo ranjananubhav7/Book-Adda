@@ -9,7 +9,7 @@ function App(){
   const [results, setresults] = useState([]);
   const apikey = "AIzaSyCBbyNy9RCeUtdu2USCo8JqaX6ycdU2VMQ";
 
-  function handleChange(event){
+  async function handleChange(event){
     setbookName(event.target.value);
     console.log(bookName);
     axios.get("https://www.googleapis.com/books/v1/volumes?q="+bookName+"&key="+apikey+"&maxResults=40").then(data =>

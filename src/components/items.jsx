@@ -2,7 +2,7 @@ import React from "react";
 
 var Item = (props)=>{
   var id = props.id;
-  var href = "/"+id;
+  // var href = "/"+id;
   var url = "https://books.google.com/books/content?id="+ id +"&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api";
   var bookT = props.bookTitle;
   bookT = bookT.substring(0, 50);
