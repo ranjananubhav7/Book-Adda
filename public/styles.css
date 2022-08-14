@@ -1,14 +1,42 @@
+/****************************** header *****************************/
+
 .header{
   height: 100px;
   width: 100%;
 }
+.headerButton{
+  margin: 0 auto 0 auto;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0);
+  color:  #F3F2C9;
+  border: 1px solid #F3F2C9;
+  padding: 5px 8px;
+  margin: 10px;
+  float: right;
+  font-weight: bold;
+  font-family: 'Bree Serif', serif;
+  letter-spacing: 5px;
+}
+.headerButton:hover{
+  background-color: #F3F2C9;
+  color: #203239;
+  transition: 0.3s;
+}
+.headerText{
+  padding: 20px;
+  color:#F3F2C9;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  float: left;
+}
+
+/**************************** header ends ***************************/
 .footer{
   height: 100px;
   width: 100%;
 }
 
 .formInput{
-  margin: 100px auto 50px auto;
+  margin: 80px auto 0 auto;
   width: 60%;
   color:#F3F2C9;
   border: 1px solid #F3F2C9;
@@ -64,6 +92,7 @@ body{
 .cardImg{
   height: 300px;
   width: 200px;
+  border-radius: 20px;
 }
 .listitems{
   width: 200px;
@@ -85,12 +114,6 @@ ul{
 .bookName{
   font-weight: bolder;
   font-size: 30px;
-}
-.headerText{
-  padding: 20px;
-  color:#F3F2C9;
-  font-family: 'Zen Tokyo Zoo', cursive;
-  float: left;
 }
 @media screen and (max-width: 1000px) {
   body{
@@ -121,6 +144,8 @@ ul{
   padding: 10px;
   border-radius: 20px;
   cursor: pointer;
+  transition: 0.3s;
+  margin: 30px 0;
 }
 .icon:hover{
   background-color: rgb(215, 208, 208, 0.2);

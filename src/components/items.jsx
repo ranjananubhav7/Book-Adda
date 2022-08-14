@@ -12,7 +12,7 @@ var Item = (props)=>{
   <div class="card-body">
     <h5 class="card-title bookName">{bookT}</h5>
     <h6>Ebook is {props.ebook ? <h6>available</h6>:<h6>unavailable</h6>}</h6>
-    <a href={href} class="btn btn-primary">Details</a>
+    <a href="book.html" class="btn btn-primary">Details</a>
   </div>
   </li>);
 };
